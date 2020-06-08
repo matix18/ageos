@@ -66,9 +66,9 @@ export default class App extends React.Component {
       <NavigationContainer style={styles.container}>
         <HeaderScreen>A.G.E.O.S Météo</HeaderScreen>
         <Tab.Navigator>
-          <Tab.Screen name="Recherche" component={StackRechercheScreen} />
-          <Tab.Screen name="Méto" component={StackMeteoScreen} />
           <Tab.Screen name="Home" component={StackHomeScreen} />
+          <Tab.Screen name="Méto" component={StackMeteoScreen} />
+          <Tab.Screen name="Recherche" component={StackRechercheScreen} />
         </Tab.Navigator>
       </NavigationContainer>
     );

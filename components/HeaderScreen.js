@@ -7,7 +7,7 @@ export default class Title extends Component {
 
         return (
             <View style={styles.header}>
-                <Text style={styles.title}>{children}</Text>
+                <Text style={styles.titre}>{children}</Text>
             </View>
         )
     }
@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
         backgroundColor: 'blue',
         padding: 15,
     },
-    title: {
+    titre: {
         textAlign: 'center',
         color: 'white',
         textTransform: 'uppercase',
