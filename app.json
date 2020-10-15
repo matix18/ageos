@@ -24,6 +24,7 @@
     "ios": {
       "supportsTablet": true
     },
-    "description": ""
+    "description": "Teste d'hébergement d'application mobile. Fin de travaux pratique.",
+    "githubUrl": "https://github.com/matix18/ageos.git"
   }
 }
